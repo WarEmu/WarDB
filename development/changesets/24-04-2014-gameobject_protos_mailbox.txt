@@ -1,0 +1,1 @@
+UPDATE `gameobject_protos` SET `ScriptName`='MailBoxScript' WHERE (`Entry`='44');
