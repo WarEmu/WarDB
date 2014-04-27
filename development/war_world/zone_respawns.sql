@@ -1,4 +1,4 @@
--- MySQL dump 10.13  Distrib 5.5.37, for Win32 (x86)
+-- MySQL dump 10.13  Distrib 5.5.37, for Win32 (AMD64)
 --
 -- Host: 127.0.0.1    Database: dyoxfin
 -- ------------------------------------------------------
@@ -54,4 +54,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-04-24  3:47:26
+-- Dump completed on 2014-04-27 12:14:35
