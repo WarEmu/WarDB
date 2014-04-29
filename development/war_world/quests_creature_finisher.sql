@@ -2338,7 +2338,7 @@ INSERT INTO `quests_creature_finisher` VALUES (600,1312,'ef8f2e8c-5f10-11e0-b8ed
 (40003,98308,'ef9bf602-5f10-11e0-b8ed-80d5a8cb02a5'),
 (40004,98309,'ef9bf6b3-5f10-11e0-b8ed-80d5a8cb02a5'),
 (40005,15,'ef9bf75f-5f10-11e0-b8ed-80d5a8cb02a5'),
-(40006,13,'ef9bf810-5f10-11e0-b8ed-80d5a8cb02a5'),
+(40006,15,''),
 (40007,203,'ef9bf8c5-5f10-11e0-b8ed-80d5a8cb02a5'),
 (40008,2058,'ef9bf971-5f10-11e0-b8ed-80d5a8cb02a5'),
 (40010,203,'ef9bfa21-5f10-11e0-b8ed-80d5a8cb02a5'),
@@ -4143,7 +4143,8 @@ INSERT INTO `quests_creature_finisher` VALUES (600,1312,'ef8f2e8c-5f10-11e0-b8ed
 (51807,670,'efa5e211-5f10-11e0-b8ed-80d5a8cb02a5'),
 (51821,198,'efa5ed1b-5f10-11e0-b8ed-80d5a8cb02a5'),
 (51822,198,'efa5edd9-5f10-11e0-b8ed-80d5a8cb02a5'),
-(51823,290,'efa5ee93-5f10-11e0-b8ed-80d5a8cb02a5');
+(51823,290,'efa5ee93-5f10-11e0-b8ed-80d5a8cb02a5'),
+(51824,200,'');
 /*!40000 ALTER TABLE `quests_creature_finisher` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -4156,4 +4157,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-04-27 12:14:34
+-- Dump completed on 2014-04-29 21:27:43

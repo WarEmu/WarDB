@@ -31,7 +31,7 @@ CREATE TABLE `quests_objectives` (
   `ObjID` text NOT NULL,
   `Quests_Objectives_ID` text,
   PRIMARY KEY (`Guid`)
-) ENGINE=InnoDB AUTO_INCREMENT=5255 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=5256 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -2816,8 +2816,8 @@ INSERT INTO `quests_objectives` VALUES (1,600,5,25,'Enemy Players','0','df781b4a
 (2774,36148,4,1,'Tor Sethai searched','11001','df85d0c5-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2775,36149,2,1,'Shadowblade','43046','df85d183-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2776,36150,3,1,'Finubar','76553','df85d23d-5f10-11e0-b8ed-80d5a8cb02a5'),
-(2777,40000,4,4,'Bones of the Dead','5916835','df85d2fb-5f10-11e0-b8ed-80d5a8cb02a5'),
-(2778,40001,3,2,'Dwarfen Gyrocopters','20','df85d3b5-5f10-11e0-b8ed-80d5a8cb02a5'),
+(2777,40000,4,4,'Bones of the Dead','5900523','df85d2fb-5f10-11e0-b8ed-80d5a8cb02a5'),
+(2778,40001,3,2,'Dwarfen Gyrocopters','565','df85d3b5-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2779,40002,2,1,'Herdstone Corrupted','288','df85d478-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2780,40002,2,4,'Unruly Gors','291','df85d531-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2781,40003,2,5,'Thorshafn Citizens','98310','df85d5eb-5f10-11e0-b8ed-80d5a8cb02a5'),
@@ -2826,7 +2826,7 @@ INSERT INTO `quests_objectives` VALUES (1,600,5,25,'Enemy Players','0','df781b4a
 (2784,40006,2,1,'Captain Von Wilke','285','df85e2cc-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2785,40006,0,1,'Tower Guards','0','df85e38a-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2786,40007,2,5,'Defiant Souls Drained','108','df85e444-5f10-11e0-b8ed-80d5a8cb02a5'),
-(2787,40008,4,1,'Vorque\'s Sackbag','14437003','df85e4f9-5f10-11e0-b8ed-80d5a8cb02a5'),
+(2787,40008,3,1,'Vorque\'s Sackbag','570','df85e4f9-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2788,40010,4,1,'Participate in the Ruinous Powers Public Quest','15993644','df85e5ae-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2789,40011,2,1,'Bright Wizard Acolyte','2822','df85e93c-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2790,40012,2,1,'Speak with Sursten the Deceiver','107','df85ea87-5f10-11e0-b8ed-80d5a8cb02a5'),
@@ -2909,8 +2909,8 @@ INSERT INTO `quests_objectives` VALUES (1,600,5,25,'Enemy Players','0','df781b4a
 (2867,40131,2,4,'Plaguesworn Noble','2310','df8670a0-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2868,40132,2,8,'Krul\'Gor Ambusher','593','df867168-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2869,40133,3,1,'Kournar','Kournar','df86722a-5f10-11e0-b8ed-80d5a8cb02a5'),
-(2870,40135,4,1,'Ancestral Chronicle','14002262','df8672e9-5f10-11e0-b8ed-80d5a8cb02a5'),
-(2871,40135,0,1,'Awakened Spirits killed','0','df8673b0-5f10-11e0-b8ed-80d5a8cb02a5'),
+(2870,40135,3,1,'Ancestral Chronicle','578','df8672e9-5f10-11e0-b8ed-80d5a8cb02a5'),
+(2871,40135,2,1,'Awakened Spirits killed','289','df8673b0-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2872,40136,2,3,'Thorshafn Ancestors','283','df867473-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2873,40136,0,3,'Use Ancestral Bane','0','df867531-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2874,40138,4,1,'Weak Marauder\'s Weapon','17213714','df8675f8-5f10-11e0-b8ed-80d5a8cb02a5'),
@@ -4197,7 +4197,7 @@ INSERT INTO `quests_objectives` VALUES (1,600,5,25,'Enemy Players','0','df781b4a
 (4155,45342,2,1,'Nightmurk','42475','df8ce7b8-5f10-11e0-b8ed-80d5a8cb02a5'),
 (4156,47114,3,1,'\'Eltharin\' Tome Entry Unlocked','365','df8ce884-5f10-11e0-b8ed-80d5a8cb02a5'),
 (4157,47116,3,1,'Find the \'Life of Sigmar\'','367','df8ce947-5f10-11e0-b8ed-80d5a8cb02a5'),
-(4158,47118,2,1,'Investigate the glowing rune nearby','27024','df8cea13-5f10-11e0-b8ed-80d5a8cb02a5'),
+(4158,47118,3,1,'Investigate the glowing rune nearby','99930','df8cea13-5f10-11e0-b8ed-80d5a8cb02a5'),
 (4159,47120,3,1,'\'\'Grudges\'\' Tome Entry Unlocked','911','df8ceadf-5f10-11e0-b8ed-80d5a8cb02a5'),
 (4160,47121,3,1,'Assistant Librarian Balnir','27031','df8ceba6-5f10-11e0-b8ed-80d5a8cb02a5'),
 (4161,47122,3,1,'\'\'Bloody Sun Boyz\'\' Tome Entry Unlocked','726','df8cec6d-5f10-11e0-b8ed-80d5a8cb02a5'),
@@ -5293,7 +5293,8 @@ INSERT INTO `quests_objectives` VALUES (1,600,5,25,'Enemy Players','0','df781b4a
 (5251,51805,0,1,'Spirit of Kurnous','0','df91ecc5-5f10-11e0-b8ed-80d5a8cb02a5'),
 (5252,51805,0,1,'Thanan Tree-Lord','0','df91ed9e-5f10-11e0-b8ed-80d5a8cb02a5'),
 (5253,51822,2,3,'Foul Nurglings Slain','98312','df91ee78-5f10-11e0-b8ed-80d5a8cb02a5'),
-(5254,30361,1,1,'Speak with Samuel Twitty','98325','df91ef78-5f10-11e0-b8ed-80d5a8cb02a5');
+(5254,30361,1,1,'Speak with Samuel Twitty','98325','df91ef78-5f10-11e0-b8ed-80d5a8cb02a5'),
+(5255,47119,1,0,'Speak to Ranulf','27029','');
 /*!40000 ALTER TABLE `quests_objectives` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -5306,4 +5307,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-04-27 12:14:35
+-- Dump completed on 2014-04-29 21:27:44
