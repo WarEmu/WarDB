@@ -31,7 +31,7 @@ CREATE TABLE `quests_objectives` (
   `ObjID` text NOT NULL,
   `Quests_Objectives_ID` text,
   PRIMARY KEY (`Guid`)
-) ENGINE=InnoDB AUTO_INCREMENT=5260 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=5259 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -1367,8 +1367,6 @@ INSERT INTO `quests_objectives` VALUES (1,600,5,25,'Enemy Players','0','df781b4a
 (1327,30022,2,1,'Borgren','3987','df7ed910-5f10-11e0-b8ed-80d5a8cb02a5'),
 (1328,30022,0,1,'Norse Raiders and Ravagers','0','df7ed9d7-5f10-11e0-b8ed-80d5a8cb02a5'),
 (1329,30023,2,5,'Filthy Spiders','658','df7eda9e-5f10-11e0-b8ed-80d5a8cb02a5'),
-(1330,30024,2,1,'Speak to Sigmarite Acolyte','4216','df7edb65-5f10-11e0-b8ed-80d5a8cb02a5'),
-(1331,30024,0,5,'Norse Pillager','0','df7edc2d-5f10-11e0-b8ed-80d5a8cb02a5'),
 (1332,30025,3,1,'Abandoned Sack','591','df7edcef-5f10-11e0-b8ed-80d5a8cb02a5'),
 (1333,30025,0,1,'Seeker Horror','0','df7eddbb-5f10-11e0-b8ed-80d5a8cb02a5'),
 (1334,30026,3,1,'Find Pater Allard','431','df7ede7e-5f10-11e0-b8ed-80d5a8cb02a5'),
@@ -1477,7 +1475,7 @@ INSERT INTO `quests_objectives` VALUES (1,600,5,25,'Enemy Players','0','df781b4a
 (1437,30189,3,1,'Liebert Naubhof','5894','df7f4617-5f10-11e0-b8ed-80d5a8cb02a5'),
 (1438,30190,4,1,'Case Used','17753','df7f46e3-5f10-11e0-b8ed-80d5a8cb02a5'),
 (1439,30190,4,1,'Tornclaw Killed','17569','df7f47aa-5f10-11e0-b8ed-80d5a8cb02a5'),
-(1440,30197,4,1,'Bugman\'s XXXXXX','11209037','df7f487b-5f10-11e0-b8ed-80d5a8cb02a5'),
+(1440,30197,4,1,'Bugman\'s XXXXXX','89121','df7f487b-5f10-11e0-b8ed-80d5a8cb02a5'),
 (1441,30200,2,5,'Bodies Burned','18006','df7f4947-5f10-11e0-b8ed-80d5a8cb02a5'),
 (1442,30200,0,10,'Afflicted Zombies','0','df7f4a0e-5f10-11e0-b8ed-80d5a8cb02a5'),
 (1443,30201,2,1,'Dieden Bloodmane','16310','df7f4ada-5f10-11e0-b8ed-80d5a8cb02a5'),
@@ -4194,7 +4192,7 @@ INSERT INTO `quests_objectives` VALUES (1,600,5,25,'Enemy Players','0','df781b4a
 (4154,45341,4,1,'Ironclaw','8817','df8ce6f1-5f10-11e0-b8ed-80d5a8cb02a5'),
 (4155,45342,2,1,'Nightmurk','42475','df8ce7b8-5f10-11e0-b8ed-80d5a8cb02a5'),
 (4156,47114,3,1,'\'Eltharin\' Tome Entry Unlocked','365','df8ce884-5f10-11e0-b8ed-80d5a8cb02a5'),
-(4157,47116,3,1,'Find the \'Life of Sigmar\'','367','df8ce947-5f10-11e0-b8ed-80d5a8cb02a5'),
+(4157,47116,3,1,'Find the \'Life of Sigmar\'','486','df8ce947-5f10-11e0-b8ed-80d5a8cb02a5'),
 (4158,47118,3,1,'Investigate the glowing rune nearby','99930','df8cea13-5f10-11e0-b8ed-80d5a8cb02a5'),
 (4159,47120,3,1,'\'\'Grudges\'\' Tome Entry Unlocked','911','df8ceadf-5f10-11e0-b8ed-80d5a8cb02a5'),
 (4160,47121,3,1,'Assistant Librarian Balnir','27031','df8ceba6-5f10-11e0-b8ed-80d5a8cb02a5'),
@@ -5308,4 +5306,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-04-30  1:47:07
+-- Dump completed on 2014-04-30 23:33:59
