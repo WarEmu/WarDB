@@ -1,8 +1,8 @@
 -- MySQL dump 10.13  Distrib 5.5.37, for Win32 (AMD64)
 --
--- Host: 127.0.0.1    Database: dyoxfin
+-- Host: 127.0.0.1    Database: war-world
 -- ------------------------------------------------------
--- Server version	5.6.16
+-- Server version	5.6.15
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -31,7 +31,7 @@ CREATE TABLE `quests_objectives` (
   `ObjID` text NOT NULL,
   `Quests_Objectives_ID` text,
   PRIMARY KEY (`Guid`)
-) ENGINE=InnoDB AUTO_INCREMENT=5256 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=5260 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -1358,8 +1358,6 @@ INSERT INTO `quests_objectives` VALUES (1,600,5,25,'Enemy Players','0','df781b4a
 (1316,30008,4,1,'Granther\'s Lucky Hammer','11657085','df7ed09b-5f10-11e0-b8ed-80d5a8cb02a5'),
 (1317,30010,3,1,'Jug of Corn Whiskey','996','df7ed162-5f10-11e0-b8ed-80d5a8cb02a5'),
 (1318,30014,2,2,'Raven Hellcannons','35','df7ed225-5f10-11e0-b8ed-80d5a8cb02a5'),
-(1319,30016,2,3,'Raven Hellfangs','367','df7ed2e8-5f10-11e0-b8ed-80d5a8cb02a5'),
-(1320,30016,2,1,'Raven Hellmagus','364','df7ed3af-5f10-11e0-b8ed-80d5a8cb02a5'),
 (1321,30017,2,1,'Raven Hellmaster','366','df7ed472-5f10-11e0-b8ed-80d5a8cb02a5'),
 (1322,30018,3,1,'Speak with Sergeant Arnoldt','558','df7ed539-5f10-11e0-b8ed-80d5a8cb02a5'),
 (1323,30019,4,3,'Sets of Beastman Horns','8259','df7ed5fc-5f10-11e0-b8ed-80d5a8cb02a5'),
@@ -1393,7 +1391,7 @@ INSERT INTO `quests_objectives` VALUES (1,600,5,25,'Enemy Players','0','df781b4a
 (1351,30055,0,1,'Find Gavin Scherer','0','df7ef637-5f10-11e0-b8ed-80d5a8cb02a5'),
 (1352,30055,0,5,'Giant Spiders','0','df7ef77d-5f10-11e0-b8ed-80d5a8cb02a5'),
 (1353,30056,3,1,'Free Gavin Scherer','428','df7ef8c3-5f10-11e0-b8ed-80d5a8cb02a5'),
-(1354,30059,2,5,'Cowering Militiamen','145','df7efa0a-5f10-11e0-b8ed-80d5a8cb02a5'),
+(1354,30059,1,5,'Cowering Militiamen','145','df7efa0a-5f10-11e0-b8ed-80d5a8cb02a5'),
 (1355,30059,2,5,'Raven Marauders','331','df7efb50-5f10-11e0-b8ed-80d5a8cb02a5'),
 (1356,30060,2,1,'Anea Hannsdottir','9450','df7efc96-5f10-11e0-b8ed-80d5a8cb02a5'),
 (1357,30061,2,8,'Bilerot Nurglings','118','df7efde0-5f10-11e0-b8ed-80d5a8cb02a5'),
@@ -1608,8 +1606,8 @@ INSERT INTO `quests_objectives` VALUES (1,600,5,25,'Enemy Players','0','df781b4a
 (1566,30355,4,1,'Guilty Rack Searched','17587','df80067b-5f10-11e0-b8ed-80d5a8cb02a5'),
 (1567,30355,0,1,'Guilty Cage Searched','0','df800743-5f10-11e0-b8ed-80d5a8cb02a5'),
 (1568,30356,2,1,'Eustasius Lang','36959','df80080f-5f10-11e0-b8ed-80d5a8cb02a5'),
-(1569,30357,3,1,'Jakob Hebel','4342','df8008d6-5f10-11e0-b8ed-80d5a8cb02a5'),
-(1570,30358,2,1,'Speak with Jakob\'s Son','4346','df800999-5f10-11e0-b8ed-80d5a8cb02a5'),
+(1569,30357,1,1,'Jakob Hebel','4342','df8008d6-5f10-11e0-b8ed-80d5a8cb02a5'),
+(1570,30358,1,1,'Speak with Jakob\'s Son','4346','df800999-5f10-11e0-b8ed-80d5a8cb02a5'),
 (1571,30359,4,1,'Amber Blossom','12981137','df800a64-5f10-11e0-b8ed-80d5a8cb02a5'),
 (1572,30363,1,1,'Speak with Elsa Schmidt','132','df800b2c-5f10-11e0-b8ed-80d5a8cb02a5'),
 (1573,30400,2,1,'Lukas Stockwood','2817','df800bf3-5f10-11e0-b8ed-80d5a8cb02a5'),
@@ -5294,7 +5292,10 @@ INSERT INTO `quests_objectives` VALUES (1,600,5,25,'Enemy Players','0','df781b4a
 (5252,51805,0,1,'Thanan Tree-Lord','0','df91ed9e-5f10-11e0-b8ed-80d5a8cb02a5'),
 (5253,51822,2,3,'Foul Nurglings Slain','98312','df91ee78-5f10-11e0-b8ed-80d5a8cb02a5'),
 (5254,30361,1,1,'Speak with Samuel Twitty','98325','df91ef78-5f10-11e0-b8ed-80d5a8cb02a5'),
-(5255,47119,1,0,'Speak to Ranulf','27029','');
+(5255,47119,1,0,'Speak to Ranulf','27029',''),
+(5256,30016,2,3,'Kill Raven Hellservants','367',''),
+(5257,30016,2,3,'Kill Raven Hellfangs','364',''),
+(5258,30016,2,1,'Kill Raven Hellmagus ','98368','');
 /*!40000 ALTER TABLE `quests_objectives` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -5307,4 +5308,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-04-29 21:27:44
+-- Dump completed on 2014-04-30  1:47:07

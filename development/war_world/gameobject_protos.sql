@@ -1,8 +1,8 @@
 -- MySQL dump 10.13  Distrib 5.5.37, for Win32 (AMD64)
 --
--- Host: 127.0.0.1    Database: dyoxfin
+-- Host: 127.0.0.1    Database: war-world
 -- ------------------------------------------------------
--- Server version	5.6.16
+-- Server version	5.6.15
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -32,7 +32,7 @@ CREATE TABLE `gameobject_protos` (
   `Faction` tinyint(3) unsigned NOT NULL DEFAULT '0',
   `HealthPoints` int(10) unsigned NOT NULL DEFAULT '1',
   `ScriptName` varchar(255) DEFAULT NULL,
-  `TokUnlock` int(10) unsigned DEFAULT NULL,
+  `TokUnlock` smallint(5) unsigned DEFAULT NULL,
   `Unks` text,
   `Unk1` tinyint(3) unsigned DEFAULT NULL,
   `Unk2` tinyint(3) unsigned DEFAULT NULL,
@@ -2004,4 +2004,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-04-29 21:27:38
+-- Dump completed on 2014-04-30  1:47:06
