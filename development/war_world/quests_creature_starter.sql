@@ -1,8 +1,8 @@
 -- MySQL dump 10.13  Distrib 5.5.37, for Win32 (AMD64)
 --
--- Host: 127.0.0.1    Database: dyoxfin
+-- Host: 127.0.0.1    Database: war-world
 -- ------------------------------------------------------
--- Server version	5.6.16
+-- Server version	5.6.15
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -2409,7 +2409,7 @@ INSERT INTO `quests_creature_starter` VALUES (600,1312,'f5cf813b-5f10-11e0-b8ed-
 (40003,98308,'f5dc6c0a-5f10-11e0-b8ed-80d5a8cb02a5'),
 (40004,98309,'f5dc6cb6-5f10-11e0-b8ed-80d5a8cb02a5'),
 (40005,15,'f5dc6d67-5f10-11e0-b8ed-80d5a8cb02a5'),
-(40006,13,'f5dc6e13-5f10-11e0-b8ed-80d5a8cb02a5'),
+(40006,15,''),
 (40007,203,'f5dc6ec4-5f10-11e0-b8ed-80d5a8cb02a5'),
 (40008,2058,'f5dc6f74-5f10-11e0-b8ed-80d5a8cb02a5'),
 (40010,15,'f5dc702a-5f10-11e0-b8ed-80d5a8cb02a5'),
@@ -4432,4 +4432,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-04-29 21:27:44
+-- Dump completed on 2014-05-01 19:30:36
