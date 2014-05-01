@@ -98,6 +98,9 @@ ECHO import: creature_vendors.sql
 ECHO import: entries.sql
 %mysqlpath%\mysql -h %host% --user=%user% --password=%pass% --port=%port% %world_db% < %devsql%\entries.sql
 
+ECHO import: gameobject_loots.sql
+%mysqlpath%\mysql -h %host% --user=%user% --password=%pass% --port=%port% %world_db% < %devsql%\gameobject_loots.sql
+
 ECHO import: gameobject_protos.sql
 %mysqlpath%\mysql -h %host% --user=%user% --password=%pass% --port=%port% %world_db% < %devsql%\gameobject_protos.sql
 
@@ -208,6 +211,8 @@ ECHO Dumping: creature_vendors
 %mysqlpath%\mysqldump -h %host% --user=%user% --password=%pass% %world_db% creature_vendors > %dumppath%\creature_vendors.sql
 ECHO Dumping: entries
 %mysqlpath%\mysqldump -h %host% --user=%user% --password=%pass% %world_db% entries > %dumppath%\entries.sql
+ECHO Dumping: gameobject_loots
+%mysqlpath%\mysqldump -h %host% --user=%user% --password=%pass% %world_db% gameobject_loots > %dumppath%\gameobject_loots.sql
 ECHO Dumping: gameobject_protos
 %mysqlpath%\mysqldump -h %host% --user=%user% --password=%pass% %world_db% gameobject_protos > %dumppath%\gameobject_protos.sql
 ECHO Dumping: gameobject_spawns
