@@ -37,7 +37,8 @@ CREATE TABLE `gameobject_loots` (
 
 LOCK TABLES `gameobject_loots` WRITE;
 /*!40000 ALTER TABLE `gameobject_loots` DISABLE KEYS */;
-INSERT INTO `gameobject_loots` VALUES (561,17711,100,'');
+INSERT INTO `gameobject_loots` VALUES (561,17711,100,''),
+(99931,12981137,100,' ');
 /*!40000 ALTER TABLE `gameobject_loots` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -50,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-05-01 22:52:57
+-- Dump completed on 2014-05-02  2:28:55
