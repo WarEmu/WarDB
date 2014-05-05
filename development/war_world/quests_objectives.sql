@@ -31,7 +31,7 @@ CREATE TABLE `quests_objectives` (
   `ObjID` text NOT NULL,
   `Quests_Objectives_ID` text,
   PRIMARY KEY (`Guid`)
-) ENGINE=InnoDB AUTO_INCREMENT=5258 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=5266 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -2813,7 +2813,7 @@ INSERT INTO `quests_objectives` VALUES (1,600,5,25,'Enemy Players','0','df781b4a
 (2775,36149,2,1,'Shadowblade','43046','df85d183-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2776,36150,3,1,'Finubar','76553','df85d23d-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2777,40000,4,4,'Bones of the Dead','5900523','df85d2fb-5f10-11e0-b8ed-80d5a8cb02a5'),
-(2778,40001,3,2,'Dwarfen Gyrocopters','565','df85d3b5-5f10-11e0-b8ed-80d5a8cb02a5'),
+(2778,40001,3,2,'Dwarfen Gyrocopters','1','df85d3b5-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2779,40002,2,1,'Herdstone Corrupted','288','df85d478-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2780,40002,2,4,'Unruly Gors','291','df85d531-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2781,40003,2,5,'Empire Spearman','106','df85d5eb-5f10-11e0-b8ed-80d5a8cb02a5'),
@@ -2822,26 +2822,26 @@ INSERT INTO `quests_objectives` VALUES (1,600,5,25,'Enemy Players','0','df781b4a
 (2784,40006,2,1,'Captain Von Wilke','285','df85e2cc-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2785,40006,2,2,'Tower Guards','108','df85e38a-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2786,40007,2,5,'Defiant Souls Drained','108','df85e444-5f10-11e0-b8ed-80d5a8cb02a5'),
-(2787,40008,3,1,'Vorque\'s Sackbag','570','df85e4f9-5f10-11e0-b8ed-80d5a8cb02a5'),
+(2787,40008,4,1,'Vorque\'s Sackbag','12981138','df85e4f9-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2788,40010,4,1,'Participate in the Ruinous Powers Public Quest','15993644','df85e5ae-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2789,40011,2,1,'Bright Wizard Acolyte','2822','df85e93c-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2790,40012,2,1,'Speak with Sursten the Deceiver','107','df85ea87-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2791,40016,2,5,'Seared Ghouls','1640','df85f866-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2792,40017,2,5,'Awakened Spirits','289','df85f995-5f10-11e0-b8ed-80d5a8cb02a5'),
-(2793,40020,3,7,'Charred Spores','553','df85faa5-5f10-11e0-b8ed-80d5a8cb02a5'),
+(2793,40020,4,7,'Charred Spores','12981140','df85faa5-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2794,40022,2,1,'Cluster of Stench','9122','df85fcb7-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2795,40022,4,5,'Watchtower Defenders','17717','df8608ec-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2796,40024,2,7,'Destitute Villagers','1633','df860a1b-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2797,40025,2,5,'Nordland Scout','2202','df860b2f-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2798,40029,2,3,'Felhorn Gor','2201','df861ad3-5f10-11e0-b8ed-80d5a8cb02a5'),
-(2799,40029,3,1,'Mount Head','251','df861bf9-5f10-11e0-b8ed-80d5a8cb02a5'),
-(2800,40029,0,1,'Braewold\'s Head','0','df8626c0-5f10-11e0-b8ed-80d5a8cb02a5'),
+(2799,40029,3,1,'Mount Head','550','df861bf9-5f10-11e0-b8ed-80d5a8cb02a5'),
+(2800,40029,4,1,'Braewold\'s Head','12981143','df8626c0-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2801,40030,2,1,'Alvar\'s Head','1636','df863c82-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2802,40030,2,1,'Mount Head','1645','df863d57-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2803,40030,4,3,'Norse Marauder','4919152','df863ef3-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2804,40030,3,5,'Norse Picket','251','df863fbf-5f10-11e0-b8ed-80d5a8cb02a5'),
-(2805,40032,3,1,'Volshehk','395','df864079-5f10-11e0-b8ed-80d5a8cb02a5'),
-(2806,40033,4,1,'Amund\'s Greatsword','5755704','df864144-5f10-11e0-b8ed-80d5a8cb02a5'),
+(2805,40032,1,1,'Volshehk','395','df864079-5f10-11e0-b8ed-80d5a8cb02a5'),
+(2806,40033,4,1,'Amund\'s Greatsword','12981141','df864144-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2807,40035,2,8,'Refugee Fighters','336','df864207-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2808,40036,3,1,'Battered Crate','983','df8642ca-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2809,40040,4,1,'Free Werner','11710','df86438d-5f10-11e0-b8ed-80d5a8cb02a5'),
@@ -2849,7 +2849,7 @@ INSERT INTO `quests_objectives` VALUES (1,600,5,25,'Enemy Players','0','df781b4a
 (2811,40041,3,1,'Brayr Grimsen','373','df864512-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2812,40042,4,6,'Tainted Blood Samples','17289836','df8645d5-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2813,40043,2,8,'Flagellants','360','df864698-5f10-11e0-b8ed-80d5a8cb02a5'),
-(2814,40048,4,8,'Severed Villager\'s Head','3478918','df86475a-5f10-11e0-b8ed-80d5a8cb02a5'),
+(2814,40048,4,8,'Severed Villager\'s Head','12981142','df86475a-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2815,40049,2,5,'Nordland Millers','391','df86481d-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2816,40050,2,4,'Citizen Militia','394','df8648db-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2817,40050,0,4,'Vengeful Peasants','0','df8649a3-5f10-11e0-b8ed-80d5a8cb02a5'),
@@ -2905,7 +2905,7 @@ INSERT INTO `quests_objectives` VALUES (1,600,5,25,'Enemy Players','0','df781b4a
 (2867,40131,2,4,'Plaguesworn Noble','2310','df8670a0-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2868,40132,2,8,'Krul\'Gor Ambusher','593','df867168-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2869,40133,3,1,'Kournar','Kournar','df86722a-5f10-11e0-b8ed-80d5a8cb02a5'),
-(2870,40135,3,1,'Ancestral Chronicle','578','df8672e9-5f10-11e0-b8ed-80d5a8cb02a5'),
+(2870,40135,4,1,'Ancestral Chronicle','12981139','df8672e9-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2871,40135,2,1,'Awakened Spirits killed','289','df8673b0-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2872,40136,2,3,'Thorshafn Ancestors','283','df867473-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2873,40136,0,3,'Use Ancestral Bane','0','df867531-5f10-11e0-b8ed-80d5a8cb02a5'),
@@ -4300,7 +4300,7 @@ INSERT INTO `quests_objectives` VALUES (1,600,5,25,'Enemy Players','0','df781b4a
 (4262,47500,2,15,'Suspicious Characters tested','5034','df8d5344-5f10-11e0-b8ed-80d5a8cb02a5'),
 (4263,47501,4,1,'Chaos Marauder Slain','16935828','df8d540b-5f10-11e0-b8ed-80d5a8cb02a5'),
 (4264,47501,0,1,'Chaos Chosen Slain','0','df8d54d7-5f10-11e0-b8ed-80d5a8cb02a5'),
-(4265,47502,4,1,'Hagan\'s Belongings','1673703','df8d55a3-5f10-11e0-b8ed-80d5a8cb02a5'),
+(4265,47502,1,1,'Hagan\'s Belongings','10560','df8d55a3-5f10-11e0-b8ed-80d5a8cb02a5'),
 (4266,47600,4,20,'Enemy Marauders','15780758','df8d566a-5f10-11e0-b8ed-80d5a8cb02a5'),
 (4267,47601,2,1,'Hasfred Bloodclaw','16312','df8d5731-5f10-11e0-b8ed-80d5a8cb02a5'),
 (4268,47604,3,20,'Enemy Chosen','2027','df8d57fd-5f10-11e0-b8ed-80d5a8cb02a5'),
@@ -5295,7 +5295,12 @@ INSERT INTO `quests_objectives` VALUES (1,600,5,25,'Enemy Players','0','df781b4a
 (5257,40034,1,1,'Thrallmaster Ogorn','352',''),
 (5258,30016,2,3,'Kill Raven Hellservants','367',''),
 (5259,30016,2,3,'Kill Raven Hellfangs','364',''),
-(5260,30016,2,1,'Kill Raven Hellmagus ','98368','');
+(5260,30016,2,1,'Kill Raven Hellmagus ','98368',''),
+(5261,40137,1,1,'Cerivith Thrallmonger','284',''),
+(5262,40080,1,1,'Surtsen the Deceiver','1637',''),
+(5263,40023,1,1,'Power Hungry Villager','1634',''),
+(5264,40047,3,1,'Valtar the Slaughterer','536',''),
+(5265,40021,1,1,'Calgn Putrich','3847','');
 /*!40000 ALTER TABLE `quests_objectives` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -5308,4 +5313,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-05-01 19:30:36
+-- Dump completed on 2014-05-05 14:49:16
