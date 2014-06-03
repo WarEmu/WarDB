@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.5.37, for Win32 (AMD64)
 --
--- Host: 127.0.0.1    Database: war-world
+-- Host: 127.0.0.1    Database: war-test
 -- ------------------------------------------------------
 -- Server version	5.6.15
 
@@ -2829,8 +2829,8 @@ INSERT INTO `quests_objectives` VALUES (1,600,5,25,'Enemy Players','0','df781b4a
 (2791,40016,2,5,'Seared Ghouls','1640','df85f866-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2792,40017,2,5,'Awakened Spirits','289','df85f995-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2793,40020,4,7,'Charred Spores','12981140','df85faa5-5f10-11e0-b8ed-80d5a8cb02a5'),
-(2794,40022,2,1,'Cluster of Stench','9122','df85fcb7-5f10-11e0-b8ed-80d5a8cb02a5'),
-(2795,40022,4,5,'Watchtower Defenders','17717','df8608ec-5f10-11e0-b8ed-80d5a8cb02a5'),
+(2794,40022,4,1,'Cluster of Stench','17717','71cf2bbf-eb4f-11e3-904f-90e6baf693b4'),
+(2795,40022,2,5,'Watchtower Defenders','9122','71cf2812-eb4f-11e3-904f-90e6baf693b4'),
 (2796,40024,2,7,'Destitute Villagers','1633','df860a1b-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2797,40025,2,5,'Nordland Scout','2202','df860b2f-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2798,40029,2,3,'Felhorn Gor','2201','df861ad3-5f10-11e0-b8ed-80d5a8cb02a5'),
@@ -2845,14 +2845,13 @@ INSERT INTO `quests_objectives` VALUES (1,600,5,25,'Enemy Players','0','df781b4a
 (2807,40035,2,8,'Refugee Fighters','336','df864207-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2808,40036,3,1,'Battered Crate','983','df8642ca-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2809,40040,4,1,'Free Werner','11710','df86438d-5f10-11e0-b8ed-80d5a8cb02a5'),
-(2810,40040,3,1,'Open Lockbox','36','df86444f-5f10-11e0-b8ed-80d5a8cb02a5'),
+(2810,40040,3,1,'Open Lockbox','548','71cf4ca0-eb4f-11e3-904f-90e6baf693b4'),
 (2811,40041,3,1,'Brayr Grimsen','373','df864512-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2812,40042,4,6,'Tainted Blood Samples','17289836','df8645d5-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2813,40043,2,8,'Flagellants','360','df864698-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2814,40048,4,8,'Severed Villager\'s Head','12981142','df86475a-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2815,40049,2,5,'Nordland Millers','391','df86481d-5f10-11e0-b8ed-80d5a8cb02a5'),
-(2816,40050,2,4,'Citizen Militia','394','df8648db-5f10-11e0-b8ed-80d5a8cb02a5'),
-(2817,40050,0,4,'Vengeful Peasants','0','df8649a3-5f10-11e0-b8ed-80d5a8cb02a5'),
+(2816,40050,2,4,'Vengeful Peasants','394','71cf0ef8-eb4f-11e3-904f-90e6baf693b4'),
 (2818,40051,4,1,'Isolde the Defender\'s Hand','10130546','df864a61-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2819,40053,2,2,'Militia Lieutenant','393','df864b2d-5f10-11e0-b8ed-80d5a8cb02a5'),
 (2820,40053,4,5,'Nordland Defenders ','8902','df864beb-5f10-11e0-b8ed-80d5a8cb02a5'),
@@ -5313,4 +5312,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-05-05 14:49:16
+-- Dump completed on 2014-06-03 19:47:19
