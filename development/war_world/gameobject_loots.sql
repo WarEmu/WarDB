@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.5.37, for Win32 (AMD64)
 --
--- Host: 127.0.0.1    Database: war-world
+-- Host: 127.0.0.1    Database: war-test
 -- ------------------------------------------------------
 -- Server version	5.6.15
 
@@ -37,7 +37,10 @@ CREATE TABLE `gameobject_loots` (
 
 LOCK TABLES `gameobject_loots` WRITE;
 /*!40000 ALTER TABLE `gameobject_loots` DISABLE KEYS */;
-INSERT INTO `gameobject_loots` VALUES (552,17546,100,''),
+INSERT INTO `gameobject_loots` VALUES (512,17540,100,'e6e6f114-eb50-11e3-904f-90e6baf693b4'),
+(518,12982151,100,'042c8bbb-eb51-11e3-904f-90e6baf693b4'),
+(527,12982150,100,'cc8e26c9-eb50-11e3-904f-90e6baf693b4'),
+(552,17546,100,''),
 (553,12981140,100,''),
 (561,17711,100,''),
 (567,12981141,100,''),
@@ -56,4 +59,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-05-05 14:49:16
+-- Dump completed on 2014-06-03 20:00:09
