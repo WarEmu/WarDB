@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.5.37, for Win32 (AMD64)
 --
--- Host: 127.0.0.1    Database: dyoxfin
+-- Host: 127.0.0.1    Database: war_world
 -- ------------------------------------------------------
 -- Server version	5.6.16
 
@@ -1127,7 +1127,7 @@ INSERT INTO `quests_creature_finisher` VALUES (600,1312,'ef8f2e8c-5f10-11e0-b8ed
 (30053,122,'ef952cbd-5f10-11e0-b8ed-80d5a8cb02a5'),
 (30054,690,'ef952d72-5f10-11e0-b8ed-80d5a8cb02a5'),
 (30056,665,'ef952e23-5f10-11e0-b8ed-80d5a8cb02a5'),
-(30059,111,'ef952ed8-5f10-11e0-b8ed-80d5a8cb02a5'),
+(30059,98367,'d2e55868-f538-11e3-a79e-406c8f12b734'),
 (30060,115,'ef952f8d-5f10-11e0-b8ed-80d5a8cb02a5'),
 (30061,98345,'ef95303e-5f10-11e0-b8ed-80d5a8cb02a5'),
 (30063,122,'ef9530ef-5f10-11e0-b8ed-80d5a8cb02a5'),
@@ -4157,4 +4157,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-04-29 21:27:43
+-- Dump completed on 2014-06-16 10:52:18

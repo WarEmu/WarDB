@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.5.37, for Win32 (AMD64)
 --
--- Host: 127.0.0.1    Database: dyoxfin
+-- Host: 127.0.0.1    Database: war_world
 -- ------------------------------------------------------
 -- Server version	5.6.16
 
@@ -82,7 +82,7 @@ INSERT INTO `zone_infos` VALUES (1,'Marshes of Madness',11,20,0,2,500,12,252,210
 (117,'Outer Dark',31,40,0,4,0,11,0,0,'94135665-bac4-11e0-84b4-60eb69729418'),
 (118,'The Kraken Sea',0,0,0,0,0,11,0,0,'9413571c-bac4-11e0-84b4-60eb69729418'),
 (120,'West Praag',31,40,0,4,0,11,328,200,'941357d4-bac4-11e0-84b4-60eb69729418'),
-(130,'Nordenwatch',1,10,0,1,0,130,7,7,'941358a3-bac4-11e0-84b4-60eb69729418'),
+(130,'Nordenwatch',1,10,1,1,0,130,80,80,'941358a3-bac4-11e0-84b4-60eb69729418'),
 (131,'Stonetroll Crossing',11,20,0,2,0,131,6,7,'9413595a-bac4-11e0-84b4-60eb69729418'),
 (132,'Talabec Dam',21,30,0,3,50,132,6,7,'94135a18-bac4-11e0-84b4-60eb69729418'),
 (133,'Maw of Madness',21,30,0,3,0,133,7,8,'94135ad0-bac4-11e0-84b4-60eb69729418'),
@@ -147,4 +147,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-04-27 12:14:35
+-- Dump completed on 2014-06-16 10:52:19
