@@ -1,8 +1,8 @@
 -- MySQL dump 10.13  Distrib 5.5.37, for Win32 (AMD64)
 --
--- Host: 127.0.0.1    Database: war-world
+-- Host: 127.0.0.1    Database: war_world
 -- ------------------------------------------------------
--- Server version	5.6.15
+-- Server version	5.6.16
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -3526,7 +3526,7 @@ INSERT INTO `quests_creature_starter` VALUES (600,1312,'f5cf813b-5f10-11e0-b8ed-
 (47501,9193,'f5e26131-5f10-11e0-b8ed-80d5a8cb02a5'),
 (47502,2132,'f5e261e2-5f10-11e0-b8ed-80d5a8cb02a5'),
 (47503,371,'f5e2632d-5f10-11e0-b8ed-80d5a8cb02a5'),
-(47504,38808,'f5e2646e-5f10-11e0-b8ed-80d5a8cb02a5'),
+(47504,4218,'e83075ef-f538-11e3-a79e-406c8f12b734'),
 (47505,32910,'f5e2653f-5f10-11e0-b8ed-80d5a8cb02a5'),
 (47506,18305,'f5e265f4-5f10-11e0-b8ed-80d5a8cb02a5'),
 (47507,9088,'f5e266ad-5f10-11e0-b8ed-80d5a8cb02a5'),
@@ -4432,4 +4432,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-05-01 19:30:36
+-- Dump completed on 2014-06-16 10:43:41

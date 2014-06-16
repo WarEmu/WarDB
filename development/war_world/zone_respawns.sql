@@ -1,8 +1,8 @@
 -- MySQL dump 10.13  Distrib 5.5.37, for Win32 (AMD64)
 --
--- Host: 127.0.0.1    Database: war-test
+-- Host: 127.0.0.1    Database: war_world
 -- ------------------------------------------------------
--- Server version	5.6.15
+-- Server version	5.6.16
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -32,7 +32,7 @@ CREATE TABLE `zone_respawns` (
   `PinZ` smallint(5) unsigned NOT NULL,
   `WorldO` smallint(5) unsigned NOT NULL,
   PRIMARY KEY (`RespawnID`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -46,7 +46,10 @@ INSERT INTO `zone_respawns` VALUES ('591904e9-c935-4965-b182-e9879574a107',1,106
 ('2b7ccc8b-eb51-11e3-904f-90e6baf693b4',3,100,2,36703,32575,5224,162),
 ('2b80926d-eb51-11e3-904f-90e6baf693b4',4,106,2,40870,5049,4759,162),
 ('2b89168d-eb51-11e3-904f-90e6baf693b4',5,106,2,57585,20053,7002,162),
-('2b92c6d0-eb51-11e3-904f-90e6baf693b4',6,161,2,27408,31540,17452,0);
+('2b92c6d0-eb51-11e3-904f-90e6baf693b4',6,161,2,27408,31540,17452,0),
+('d2ec602b-f538-11e3-a79e-406c8f12b734',7,106,1,25450,54069,7809,2908),
+('41a950b8-f539-11e3-a79e-406c8f12b734',8,106,1,28098,18493,5087,2864),
+('41b22e9f-f539-11e3-a79e-406c8f12b734',9,100,1,55013,58312,5924,2332);
 /*!40000 ALTER TABLE `zone_respawns` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -59,4 +62,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-06-03 20:00:11
+-- Dump completed on 2014-06-16 10:43:41

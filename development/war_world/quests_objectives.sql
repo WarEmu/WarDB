@@ -1,8 +1,8 @@
 -- MySQL dump 10.13  Distrib 5.5.37, for Win32 (AMD64)
 --
--- Host: 127.0.0.1    Database: war-test
+-- Host: 127.0.0.1    Database: war_world
 -- ------------------------------------------------------
--- Server version	5.6.15
+-- Server version	5.6.16
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -1353,48 +1353,48 @@ INSERT INTO `quests_objectives` VALUES (1,600,5,25,'Enemy Players','0','df781b4a
 (1311,29996,4,5,'Spikespore Mushroom','1923552','df7ec529-5f10-11e0-b8ed-80d5a8cb02a5'),
 (1312,30000,2,3,'Marauders','39','df7ec5f0-5f10-11e0-b8ed-80d5a8cb02a5'),
 (1313,30001,2,3,'Marauder Torchbearers Killed','98324','df7ec6b7-5f10-11e0-b8ed-80d5a8cb02a5'),
-(1314,30001,0,3,'Villagers Freed','0','df7ecf0c-5f10-11e0-b8ed-80d5a8cb02a5'),
+(1314,30001,0,3,'Villagers Freed','0','8bdc39b8-f538-11e3-a79e-406c8f12b734'),
 (1315,30003,2,3,'Farmers Rallied','31','df7ecfdd-5f10-11e0-b8ed-80d5a8cb02a5'),
-(1316,30008,4,1,'Granther\'s Lucky Hammer','11657085','df7ed09b-5f10-11e0-b8ed-80d5a8cb02a5'),
+(1316,30008,4,1,'Granther\'s Lucky Hammer','12982153','af6fddfe-f538-11e3-a79e-406c8f12b734'),
 (1317,30010,3,1,'Jug of Corn Whiskey','996','df7ed162-5f10-11e0-b8ed-80d5a8cb02a5'),
-(1318,30014,2,2,'Raven Hellcannons','35','df7ed225-5f10-11e0-b8ed-80d5a8cb02a5'),
+(1318,30014,3,2,'Raven Hellcannons','34','9ad27423-f538-11e3-a79e-406c8f12b734'),
 (1321,30017,2,1,'Raven Hellmaster','366','df7ed472-5f10-11e0-b8ed-80d5a8cb02a5'),
-(1322,30018,3,1,'Speak with Sergeant Arnoldt','558','df7ed539-5f10-11e0-b8ed-80d5a8cb02a5'),
+(1322,30018,3,1,'Speak with Sergeant Arnoldt','490','d9aac187-f538-11e3-a79e-406c8f12b734'),
 (1323,30019,4,3,'Sets of Beastman Horns','8259','df7ed5fc-5f10-11e0-b8ed-80d5a8cb02a5'),
 (1324,30020,4,5,'Bent Hammer','9756978','df7ed6c3-5f10-11e0-b8ed-80d5a8cb02a5'),
 (1325,30020,4,5,'Bloodied Axe','7938592','df7ed78a-5f10-11e0-b8ed-80d5a8cb02a5'),
 (1326,30020,4,5,'Jagged Sword','9625914','df7ed84d-5f10-11e0-b8ed-80d5a8cb02a5'),
-(1327,30022,2,1,'Borgren','3987','df7ed910-5f10-11e0-b8ed-80d5a8cb02a5'),
-(1328,30022,0,1,'Norse Raiders and Ravagers','0','df7ed9d7-5f10-11e0-b8ed-80d5a8cb02a5'),
+(1327,30022,2,1,'Borgren','3988','f85d2c4f-f538-11e3-a79e-406c8f12b734'),
+(1328,30022,2,4,'Norse Raiders','3987','f8670ba7-f538-11e3-a79e-406c8f12b734'),
 (1329,30023,2,5,'Filthy Spiders','658','df7eda9e-5f10-11e0-b8ed-80d5a8cb02a5'),
-(1332,30025,3,1,'Abandoned Sack','591','df7edcef-5f10-11e0-b8ed-80d5a8cb02a5'),
-(1333,30025,0,1,'Seeker Horror','0','df7eddbb-5f10-11e0-b8ed-80d5a8cb02a5'),
-(1334,30026,3,1,'Find Pater Allard','431','df7ede7e-5f10-11e0-b8ed-80d5a8cb02a5'),
-(1335,30026,0,1,'Norse Sea Dogs','0','df7edf45-5f10-11e0-b8ed-80d5a8cb02a5'),
+(1332,30025,4,1,'Abandoned Sack','434979','ec55001d-f538-11e3-a79e-406c8f12b734'),
+(1333,30025,2,3,'Seeker Horror','536','f045d85e-f538-11e3-a79e-406c8f12b734'),
+(1334,30026,3,1,'Find Pater Allard','503','32ebe3e8-f539-11e3-a79e-406c8f12b734'),
+(1335,30026,2,5,'Norse Sea Dogs','3546','32f506c0-f539-11e3-a79e-406c8f12b734'),
 (1336,30027,2,1,'Defeat Haldred the Miller','3532','df7ee00d-5f10-11e0-b8ed-80d5a8cb02a5'),
 (1337,30031,3,1,'General Breuer','662','df7ee0d4-5f10-11e0-b8ed-80d5a8cb02a5'),
 (1338,30037,4,1,'Cauldron','36988','df7ee19b-5f10-11e0-b8ed-80d5a8cb02a5'),
-(1339,30039,4,3,'Widow\'s Bane','13837324','df7ee262-5f10-11e0-b8ed-80d5a8cb02a5'),
-(1340,30040,2,3,'Crazed Flagellants','3534','df7ee32a-5f10-11e0-b8ed-80d5a8cb02a5'),
-(1341,30040,4,2,'Crazed Repenters','17538','df7ee3f5-5f10-11e0-b8ed-80d5a8cb02a5'),
+(1339,30039,4,3,'Widow\'s Bane','12982154','8734410e-f539-11e3-a79e-406c8f12b734'),
+(1340,30040,2,3,'Crazed Flagellants','3523','7d66d58b-f539-11e3-a79e-406c8f12b734'),
+(1341,30040,2,1,'Klaus the Doomed','3545','7d71f306-f539-11e3-a79e-406c8f12b734'),
 (1342,30042,2,1,'Escaped Patient','3528','df7ee4cf-5f10-11e0-b8ed-80d5a8cb02a5'),
-(1343,30046,3,1,'Find Ewald','592','df7ee619-5f10-11e0-b8ed-80d5a8cb02a5'),
-(1344,30046,0,1,'Norse Savages','0','df7ee756-5f10-11e0-b8ed-80d5a8cb02a5'),
+(1343,30046,3,1,'Find Ewald','21','3de8960e-f539-11e3-a79e-406c8f12b734'),
+(1344,30046,2,3,'Norse Savages','3520','3e044155-f539-11e3-a79e-406c8f12b734'),
 (1345,30048,3,4,'Citizens Rescued','9293','df7eec2f-5f10-11e0-b8ed-80d5a8cb02a5'),
 (1346,30049,2,7,'Murderous Raiders','4131','df7eee2b-5f10-11e0-b8ed-80d5a8cb02a5'),
 (1347,30051,3,1,'Enemy Ships Scouted','129','df7ef0f2-5f10-11e0-b8ed-80d5a8cb02a5'),
-(1348,30052,2,1,'Basket of Food','3553','df7ef25c-5f10-11e0-b8ed-80d5a8cb02a5'),
-(1349,30052,0,6,'Bandits','0','df7ef3b0-5f10-11e0-b8ed-80d5a8cb02a5'),
+(1348,30052,4,1,'Basket of Food','12982155','e0849b48-f539-11e3-a79e-406c8f12b734'),
+(1349,30052,2,6,'Bandits','4117','0c188c46-f53a-11e3-a79e-406c8f12b734'),
 (1350,30054,2,1,'Magda Darkweaver','760','df7ef4f1-5f10-11e0-b8ed-80d5a8cb02a5'),
-(1351,30055,0,1,'Find Gavin Scherer','0','df7ef637-5f10-11e0-b8ed-80d5a8cb02a5'),
-(1352,30055,0,5,'Giant Spiders','0','df7ef77d-5f10-11e0-b8ed-80d5a8cb02a5'),
+(1351,30055,3,1,'Find Gavin Scherer','507','93842e1a-f539-11e3-a79e-406c8f12b734'),
+(1352,30055,2,5,'Giant Spiders','3521','939013b1-f539-11e3-a79e-406c8f12b734'),
 (1353,30056,3,1,'Free Gavin Scherer','428','df7ef8c3-5f10-11e0-b8ed-80d5a8cb02a5'),
-(1354,30059,2,5,'Cowering Militiamen','145','df7efa0a-5f10-11e0-b8ed-80d5a8cb02a5'),
-(1355,30059,2,5,'Raven Marauders','331','df7efb50-5f10-11e0-b8ed-80d5a8cb02a5'),
+(1354,30059,1,5,'Cowering Militiamen','145','c6f3a891-f538-11e3-a79e-406c8f12b734'),
+(1355,30059,2,5,'Raven Marauders','331','c6ff3678-f538-11e3-a79e-406c8f12b734'),
 (1356,30060,2,1,'Anea Hannsdottir','9450','df7efc96-5f10-11e0-b8ed-80d5a8cb02a5'),
 (1357,30061,2,8,'Bilerot Nurglings','118','df7efde0-5f10-11e0-b8ed-80d5a8cb02a5'),
-(1358,30063,2,1,'Fill Water Bucket','9449','df7eff22-5f10-11e0-b8ed-80d5a8cb02a5'),
-(1359,30063,4,1,'Lundr Bruor','5810550','df7f006c-5f10-11e0-b8ed-80d5a8cb02a5'),
+(1358,30063,4,1,'Fill Water Bucket','17537','2324cfd6-f53a-11e3-a79e-406c8f12b734'),
+(1359,30063,2,1,'Lundr Bruor','9449','23149287-f53a-11e3-a79e-406c8f12b734'),
 (1360,30064,4,1,'Gnaga\'s Horns','6859190','df7f01b7-5f10-11e0-b8ed-80d5a8cb02a5'),
 (1361,30068,4,1,'White Wolf Pelt','17553','df7f0283-5f10-11e0-b8ed-80d5a8cb02a5'),
 (1362,30069,3,1,'Siegmund Kraemer','3512','df7f034a-5f10-11e0-b8ed-80d5a8cb02a5'),
@@ -4296,7 +4296,7 @@ INSERT INTO `quests_objectives` VALUES (1,600,5,25,'Enemy Players','0','df781b4a
 (4259,47333,2,1,'Sechar, the Darkpromise Chieftain Slain','61598','df8d50e0-5f10-11e0-b8ed-80d5a8cb02a5'),
 (4260,47334,4,1,'Vial of the Everqueen\'s Essence','11976210','df8d51b1-5f10-11e0-b8ed-80d5a8cb02a5'),
 (4261,47334,0,1,'N\'Kari, Keeper of Secrets Defeated','0','df8d527d-5f10-11e0-b8ed-80d5a8cb02a5'),
-(4262,47500,2,15,'Suspicious Characters tested','5034','df8d5344-5f10-11e0-b8ed-80d5a8cb02a5'),
+(4262,47500,1,7,'Suspicious Characters tested','15456','df3ee16e-f538-11e3-a79e-406c8f12b734'),
 (4263,47501,4,1,'Chaos Marauder Slain','16935828','df8d540b-5f10-11e0-b8ed-80d5a8cb02a5'),
 (4264,47501,0,1,'Chaos Chosen Slain','0','df8d54d7-5f10-11e0-b8ed-80d5a8cb02a5'),
 (4265,47502,1,1,'Hagan\'s Belongings','10560','df8d55a3-5f10-11e0-b8ed-80d5a8cb02a5'),
@@ -5312,4 +5312,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-06-03 20:00:10
+-- Dump completed on 2014-06-16 10:43:41
