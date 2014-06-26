@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.5.37, for Win32 (AMD64)
 --
--- Host: 127.0.0.1    Database: war_world
+-- Host: 127.0.0.1    Database: ww
 -- ------------------------------------------------------
 -- Server version	5.6.16
 
@@ -62834,7 +62834,11 @@ INSERT INTO `creature_vendors` VALUES (42380,2011063,3900,'','99cdda7b-bac4-11e0
 (98303,208622,0,'(25,919)','99f1db6c-bac4-11e0-84b4-60eb69729418'),
 (98303,208623,0,'(25,919)','99f1dbdd-bac4-11e0-84b4-60eb69729418'),
 (98303,208624,0,'(25,919)','99f1dc4d-bac4-11e0-84b4-60eb69729418'),
-(98303,208625,0,'(25,919)','99f1dcbe-bac4-11e0-84b4-60eb69729418');
+(98303,208625,0,'(25,919)','99f1dcbe-bac4-11e0-84b4-60eb69729418'),
+(93421,430034,0,'(10,208400)','b6ba231d-fd6c-11e3-af06-406c8f12b734'),
+(93421,430038,0,'(3,208400)','b6bb94c1-fd6c-11e3-af06-406c8f12b734'),
+(93421,430039,0,'(3,208400)','b6bccad1-fd6c-11e3-af06-406c8f12b734'),
+(93421,430047,0,'(3,208400)','b6be4c96-fd6c-11e3-af06-406c8f12b734');
 /*!40000 ALTER TABLE `creature_vendors` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -62847,4 +62851,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-06-16 10:43:40
+-- Dump completed on 2014-06-26 21:03:29

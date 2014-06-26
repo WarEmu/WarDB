@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.5.37, for Win32 (AMD64)
 --
--- Host: 127.0.0.1    Database: war_world
+-- Host: 127.0.0.1    Database: ww
 -- ------------------------------------------------------
 -- Server version	5.6.16
 
@@ -98,8 +98,8 @@ INSERT INTO `zone_infos` VALUES (1,'Marshes of Madness',11,20,0,2,500,12,252,210
 (155,'Sacellum Dungeons: West Wing',12,18,0,4,0,155,0,0,'94135fe6-bac4-11e0-84b4-60eb69729418'),
 (156,'Sacellum Dungeons: East Wing',12,18,0,4,0,156,0,0,'9413605d-bac4-11e0-84b4-60eb69729418'),
 (160,'Bastion Stair',34,40,0,3,0,160,0,0,'941360cd-bac4-11e0-84b4-60eb69729418'),
-(161,'The Inevitable City',31,40,0,4,2500,17,102,27,'94136144-bac4-11e0-84b4-60eb69729418'),
-(162,'Altdorf',31,40,0,4,0,7,25,27,'941361ba-bac4-11e0-84b4-60eb69729418'),
+(161,'The Inevitable City',31,40,0,4,2500,17,100,24,'94136144-bac4-11e0-84b4-60eb69729418'),
+(162,'Altdorf',31,40,0,4,0,7,24,24,'941361ba-bac4-11e0-84b4-60eb69729418'),
 (169,'The Sewers of Altdorf: Wing 3',31,40,0,4,0,169,0,0,'9413622b-bac4-11e0-84b4-60eb69729418'),
 (171,'The Screaming Cat',31,40,0,4,0,171,0,0,'941362a1-bac4-11e0-84b4-60eb69729418'),
 (173,'Sacellum Dungeons: South Wing',12,18,0,4,0,173,0,0,'94136317-bac4-11e0-84b4-60eb69729418'),
@@ -147,4 +147,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-06-16 10:52:19
+-- Dump completed on 2014-06-26 21:03:34
