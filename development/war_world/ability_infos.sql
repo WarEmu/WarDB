@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.5.37, for Win32 (AMD64)
 --
--- Host: 127.0.0.1    Database: dyoxfin
+-- Host: 127.0.0.1    Database: war_world
 -- ------------------------------------------------------
 -- Server version	5.6.16
 
@@ -875,7 +875,7 @@ INSERT INTO `ability_infos` VALUES (1,8,'Ard Noggin',9,0,0,5,2626,'Requires Squi
 (8320,13,'Seeping Wound',3,0,0,5,5254,'','Path of Discord',0,0,0,0,0,1032,30,0,0,39,0,1,0,0,'DealDamages',1707,NULL,'e3d1de17-7ccb-11e3-ac5a-bc5ff43612d1',0),
 (8321,13,'Discordant Instability',6,0,0,0,5253,'May only use one Chaotic Aura at a time.\n','Path of Discord',0,4,0,4,0,0,0,0,0,156,0,1,0,0,'DealZoneDamages',1708,NULL,'e40a250d-7ccb-11e3-ac5a-bc5ff43612d1',1),
 (8322,13,'Taunt',7,0,0,65,5169,'','Core Ability',0,15,0,15,0,40,20,0,0,213,0,1,0,0,'',1709,NULL,'e3147ec7-7ccb-11e3-ac5a-bc5ff43612d1',0),
-(8323,13,'Ravage',5,0,0,5,5173,'','Path of Discord',0,0,0,0,0,1032,35,0,0,108,0,1,0,0,'',1710,NULL,'e3c7be21-7ccb-11e3-ac5a-bc5ff43612d1',0),
+(8323,13,'Ravage',5,0,0,5,5173,'','Path of Discord',0,0,0,0,0,1032,35,0,0,108,0,1,0,0,'DealDamages',1710,NULL,'e3c7be21-7ccb-11e3-ac5a-bc5ff43612d1',0),
 (8324,13,'Dizzying Blow',9,0,0,5,5184,'','Path of Corruption',0,5,0,5,0,1064,30,0,0,352,0,1,0,0,'DealDamages',1711,NULL,'e41857de-7ccb-11e3-ac5a-bc5ff43612d1',0),
 (8325,13,'Guard',10,0,0,150,5172,'Only usable on other players\n','Core Ability',0,0,0,0,0,10,0,0,0,435,0,1,0,0,'DealZoneDamages',1712,NULL,'e41ba90c-7ccb-11e3-ac5a-bc5ff43612d1',1),
 (8326,13,'Hold The Line!',10,0,0,0,5143,'Requires Shield\n','Core Ability',12000,0,0,0,0,74,20,1,0,435,0,1,0,0,'DealZoneDamages',1713,NULL,'e411463d-7ccb-11e3-ac5a-bc5ff43612d1',0),
@@ -981,15 +981,15 @@ INSERT INTO `ability_infos` VALUES (1,8,'Ard Noggin',9,0,0,5,2626,'Requires Squi
 (8455,14,'Forked Aggression',0,0,0,0,5230,'','Path of Brutality',0,60,0,60,7,10,0,0,1,0,0,1,0,0,'',0,NULL,'e8fead54-7ccb-11e3-ac5a-bc5ff43612d1',0),
 (8456,14,'Energy Ripple',0,0,0,0,5208,'','Path of Monstrosity',0,60,0,60,7,1032,0,0,1,0,0,1,0,0,'DealZoneDamages',1838,NULL,'e917422a-7ccb-11e3-ac5a-bc5ff43612d1',0),
 (8470,16,'Flickering Red Fire',0,0,0,100,5106,'','Path of Havoc',2000,0,0,0,19,1032,35,0,0,0,0,1,0,0,'DealDamages',2000,NULL,'e4889867-7ccb-11e3-ac5a-bc5ff43612d1',0),
-(8471,16,'Rend Winds',2,0,0,65,5112,'','Path of Changing',1000,0,0,0,0,1032,35,0,0,17,0,1,0,0,'',2001,NULL,'e2429317-7ccb-11e3-ac5a-bc5ff43612d1',0),
-(8472,16,'Daemonic Lash',6,0,0,0,5270,'','Path of Daemonology',0,0,0,0,0,1032,35,0,0,160,0,1,0,0,'',2002,NULL,'e295ab36-7ccb-11e3-ac5a-bc5ff43612d1',0),
+(8471,16,'Rend Winds',2,0,0,65,5112,'','Path of Changing',1000,0,0,0,0,1032,35,0,0,17,0,1,0,0,'DealDamages',2001,NULL,'e2429317-7ccb-11e3-ac5a-bc5ff43612d1',0),
+(8472,16,'Daemonic Lash',6,0,0,0,5270,'','Path of Daemonology',0,0,0,0,0,1032,35,0,0,160,0,1,0,0,'DealDamagesInFront',2002,NULL,'e295ab36-7ccb-11e3-ac5a-bc5ff43612d1',0),
 (8473,16,'Shocking Jolt',22,0,0,65,5271,'','Core Ability',0,20,0,20,0,8,0,0,0,2153,0,1,0,0,'DealZoneDamages',2003,NULL,'e2d99edb-7ccb-11e3-ac5a-bc5ff43612d1',0),
 (8474,16,'Summon Pink Horror',3,0,0,0,5272,'','Core Ability',2000,5,0,5,0,10,55,0,0,40,0,1,0,0,'DealZoneDamages',2004,NULL,'e32c4c2f-7ccb-11e3-ac5a-bc5ff43612d1',0),
 (8475,16,'Surge of Insanity',14,0,0,65,5275,'','Path of Changing',1000,10,0,10,0,1064,35,0,0,872,0,1,0,0,'DealZoneDamages',2005,NULL,'e37c9e87-7ccb-11e3-ac5a-bc5ff43612d1',0),
 (8476,16,'Summon Blue Horror',6,0,0,0,5276,'','Core Ability',2000,5,0,5,0,10,55,0,0,160,0,1,0,0,'DealZoneDamages',0,NULL,'e46a2574-7ccb-11e3-ac5a-bc5ff43612d1',0),
 (8477,16,'Horrifying Visions',7,0,0,100,5279,'','Core Ability',0,15,0,15,0,40,20,0,0,218,0,1,0,0,'',2007,NULL,'e47747f9-7ccb-11e3-ac5a-bc5ff43612d1',0),
 (8478,16,'Summon Flamer',8,0,0,0,5280,'','Core Ability',2000,5,0,5,0,10,55,0,0,284,0,1,0,0,'DealZoneDamages',2008,NULL,'e48c3f53-7ccb-11e3-ac5a-bc5ff43612d1',0),
-(8479,16,'Surging Violet Fire',10,0,0,100,5283,'','Path of Havoc',0,10,0,10,0,1032,35,0,0,445,0,1,0,0,'',2009,NULL,'e246d730-7ccb-11e3-ac5a-bc5ff43612d1',0),
+(8479,16,'Surging Violet Fire',10,0,0,100,5283,'','Path of Havoc',0,10,0,10,0,1032,35,0,0,445,0,1,0,0,'DealDamages',2009,NULL,'e246d730-7ccb-11e3-ac5a-bc5ff43612d1',0),
 (8480,16,'Tzeentch\'s Grasp',12,0,0,0,5284,'','Core Ability',0,30,0,30,0,40,25,0,0,640,0,1,0,0,'DealZoneDamages',2010,NULL,'e299e772-7ccb-11e3-ac5a-bc5ff43612d1',0),
 (8481,16,'Instability',25,0,0,100,5299,'Requires a summoned minion.\n','Core Ability',0,60,0,60,0,1064,0,0,0,2781,0,1,0,0,'DealZoneDamages',2011,NULL,'e2dd3400-7ccb-11e3-ac5a-bc5ff43612d1',0),
 (8482,16,'Glean Magic',5,0,0,65,5286,'','Path of Changing',0,0,0,0,0,1064,25,0,0,111,0,1,0,0,'DealZoneDamages',2012,NULL,'e3301548-7ccb-11e3-ac5a-bc5ff43612d1',0),
@@ -1626,4 +1626,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-04-27 12:14:31
+-- Dump completed on 2014-06-30  0:45:49

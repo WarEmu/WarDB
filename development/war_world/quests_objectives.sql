@@ -1372,7 +1372,7 @@ INSERT INTO `quests_objectives` VALUES (1,600,5,25,'Enemy Players','0','df781b4a
 (1334,30026,3,1,'Find Pater Allard','503','32ebe3e8-f539-11e3-a79e-406c8f12b734'),
 (1335,30026,2,5,'Norse Sea Dogs','3546','32f506c0-f539-11e3-a79e-406c8f12b734'),
 (1336,30027,2,1,'Defeat Haldred the Miller','3532','df7ee00d-5f10-11e0-b8ed-80d5a8cb02a5'),
-(1337,30031,3,1,'General Breuer','662','df7ee0d4-5f10-11e0-b8ed-80d5a8cb02a5'),
+(1337,30031,1,1,'General Breuer','662','5ce63342-ffe7-11e3-9136-406c8f12b734'),
 (1338,30037,4,1,'Cauldron','36988','df7ee19b-5f10-11e0-b8ed-80d5a8cb02a5'),
 (1339,30039,4,3,'Widow\'s Bane','12982154','8734410e-f539-11e3-a79e-406c8f12b734'),
 (1340,30040,2,3,'Crazed Flagellants','3523','7d66d58b-f539-11e3-a79e-406c8f12b734'),
@@ -5312,4 +5312,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-06-16 10:43:41
+-- Dump completed on 2014-06-30  0:45:53
