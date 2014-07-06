@@ -376,7 +376,7 @@ INSERT INTO `ability_infos` VALUES (1,8,'Ard Noggin',9,0,0,5,2626,'Requires Squi
 (1587,3,'Grungni\'s Gift',0,0,0,150,4625,'','Path of Grungni',0,0,0,0,19,12,15,0,0,0,0,1,0,0,'SimpleHeal',756,NULL,'e7be6cf9-7ccb-11e3-ac5a-bc5ff43612d1',0),
 (1588,3,'Oath Rune of Warding',9,0,0,100,4626,'','Path of Grimnir',0,0,0,0,0,10,25,0,0,376,0,1,0,0,'DealZoneDamages',757,NULL,'e5cc4dbe-7ccb-11e3-ac5a-bc5ff43612d1',0),
 (1589,3,'Rune of Immolation',2,0,0,100,4627,'','Path of Valaya',0,0,0,0,0,1032,30,0,0,18,0,1,0,0,'DealDamages',758,NULL,'e5cf7997-7ccb-11e3-ac5a-bc5ff43612d1',0),
-(1590,3,'Rune of Regeneration',3,0,0,150,4561,'','Core Ability',0,0,0,0,0,12,30,0,0,41,0,1,0,0,'',759,NULL,'e5d2cdb2-7ccb-11e3-ac5a-bc5ff43612d1',0),
+(1590,3,'Rune of Regeneration',3,0,0,150,4561,'','Core Ability',0,0,0,0,0,12,30,0,0,41,0,1,0,0,'SimpleHeal',759,NULL,'e5d2cdb2-7ccb-11e3-ac5a-bc5ff43612d1',0),
 (1591,3,'Oath Rune of Power',4,0,0,100,4562,'','Path of Grungni',0,0,0,0,0,10,25,0,0,74,0,1,0,0,'DealDamages',760,NULL,'e5d630f7-7ccb-11e3-ac5a-bc5ff43612d1',0),
 (1592,3,'Grimnir\'s Shield',21,0,0,0,4628,'','Core Ability',0,180,0,180,0,10,35,0,0,2050,0,1,0,0,'',761,NULL,'e5d98a51-7ccb-11e3-ac5a-bc5ff43612d1',0),
 (1593,3,'Rune of Shielding',6,0,0,100,4629,'','Path of Valaya',0,20,0,20,0,14,35,0,0,167,0,1,0,0,'AbsorbDamages',762,NULL,'e5dcc2ca-7ccb-11e3-ac5a-bc5ff43612d1',0),
@@ -1047,7 +1047,7 @@ INSERT INTO `ability_infos` VALUES (1,8,'Ard Noggin',9,0,0,5,2626,'Requires Squi
 (8555,15,'Tzeentch Shall Remake You',10,0,0,100,5233,'Only usable on Dead Players\n','Core Ability',3000,6,0,6,0,12,20,0,0,455,0,1,0,0,'',2082,NULL,'e3937835-7ccb-11e3-ac5a-bc5ff43612d1',0),
 (8556,15,'Mark of the Spell Destroyer',12,0,0,100,5136,'','Path of Witchcraft',0,0,0,0,0,10,25,0,0,655,0,1,0,0,'DealDamages',2083,NULL,'e4c6f016-7ccb-11e3-ac5a-bc5ff43612d1',0),
 (8557,15,'Leaping Alteration',14,0,0,150,5250,'','Path of Dark Rites',1000,10,0,10,0,12,40,0,0,891,0,1,0,0,'SimpleHeal',2084,NULL,'e43f32be-7ccb-11e3-ac5a-bc5ff43612d1',0),
-(8558,15,'Tzeentch\'s Cordial',3,0,0,150,5142,'','Core Ability',0,0,0,0,0,12,30,0,0,40,0,1,0,0,'',2085,NULL,'e4a6d4aa-7ccb-11e3-ac5a-bc5ff43612d1',0),
+(8558,15,'Tzeentch\'s Cordial',3,0,0,150,5142,'','Core Ability',0,0,0,0,0,12,30,0,0,40,0,1,0,0,'SimpleHeal',2085,NULL,'e4a6d4aa-7ccb-11e3-ac5a-bc5ff43612d1',0),
 (8559,15,'Breath of Tzeentch',25,0,0,0,5237,'','Core Ability',0,60,0,60,0,40,40,0,0,2843,0,1,0,0,'DealZoneDamages',2086,NULL,'e268f436-7ccb-11e3-ac5a-bc5ff43612d1',0),
 (8560,15,'Mark of the Vortex',9,0,0,100,5137,'','Path of Dark Rites',0,0,0,0,0,10,25,0,0,368,0,1,0,0,'DealDamages',2087,NULL,'e2b6c84d-7ccb-11e3-ac5a-bc5ff43612d1',0),
 (8561,15,'Daemonic Fortitude',30,0,0,100,5240,'','Path of Alchemy',0,180,0,180,0,10,35,0,0,4095,0,1,0,0,'',2088,NULL,'e2fdec3f-7ccb-11e3-ac5a-bc5ff43612d1',0),
@@ -1626,4 +1626,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-06-30  0:45:49
+-- Dump completed on 2014-07-06 17:15:13
