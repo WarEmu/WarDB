@@ -122,6 +122,9 @@ ECHO import: pquest_info.sql
 ECHO import: pquest_objectives.sql
 %mysqlpath%\mysql -h %host% --user=%user% --password=%pass% --port=%port% %world_db% < %devsql%\pquest_objectives.sql
 
+ECHO import: pquest_spawns.sql
+%mysqlpath%\mysql -h %host% --user=%user% --password=%pass% --port=%port% %world_db% < %devsql%\pquest_spawns.sql
+
 ECHO import: quests.sql
 %mysqlpath%\mysql -h %host% --user=%user% --password=%pass% --port=%port% %world_db% < %devsql%\quests.sql
 
@@ -227,6 +230,8 @@ ECHO Dumping: pquest_info
 %mysqlpath%\mysqldump -h %host% --user=%user% --password=%pass% %world_db% pquest_info > %dumppath%\pquest_info.sql
 ECHO Dumping: pquest_objectives
 %mysqlpath%\mysqldump -h %host% --user=%user% --password=%pass% %world_db% pquest_objectives > %dumppath%\pquest_objectives.sql
+ECHO Dumping: pquest_spawns
+%mysqlpath%\mysqldump -h %host% --user=%user% --password=%pass% %world_db% pquest_spawns > %dumppath%\pquest_spawns.sql
 ECHO Dumping: quests
 %mysqlpath%\mysqldump -h %host% --user=%user% --password=%pass% %world_db% quests > %dumppath%\quests.sql
 ECHO Dumping: quests_creature_finisher
