@@ -798,7 +798,7 @@ INSERT INTO `pquest_objectives` VALUES (1,1,'ASSAULT',0,'Battle Objective Intera
 (797,184,'Stage II',3,'Cocooned Citizen',15,'Free the cocooned citizens before they are eaten alive!  ','625',0,'77202544-7fef-11e1-8887-7a79051cf7b8'),
 (798,184,'Stage III',2,'The Devourer',1,'The monstrous spider will devour Nordland whole unless it is stopped!  ','4132',9058,'77202654-7fef-11e1-8887-7a79051cf7b8'),
 (799,185,'Stage I',2,'Thorshafn Militiaman',25,'Rid the summoning grounds of the meddlesome weaklings.  Kill the Thorshafn Militiamen.  ','26',0,'77202822-7fef-11e1-8887-7a79051cf7b8'),
-(800,185,'Stage II',3,'Perished Soul',25,'Bolster the power of the dark ritual.  Harvest the souls of the fallen from the tombstones.  ','5',0,'77202903-7fef-11e1-8887-7a79051cf7b8'),
+(800,185,'Stage II',3,'Perished Soul',25,'Bolster the power of the dark ritual.  Harvest the souls of the fallen from the tombstones.  ','559',0,'77202903-7fef-11e1-8887-7a79051cf7b8'),
 (801,185,'Stage III',2,'Kar\'thok the Bloodhowler',1,'A daemon of another dark power emerges.  Prove the Raven Host\'s supremacy over all other ruinous powers.  Defeat the denizen of rage.  ','185',8262,'772029d2-7fef-11e1-8887-7a79051cf7b8'),
 (802,186,'Stage I',3,'Ancient Stone',20,'There is foul work afoot.  Gather those ancient stones to decipher what is happening in these ruins.  ','503',0,'77202f4d-7fef-11e1-8887-7a79051cf7b8'),
 (803,186,'Stage II',3,'Ancient Stone',8,'The ritual of evil must be stopped! Overturn those stones to try and disrupt it!  ','503',0,'77203011-7fef-11e1-8887-7a79051cf7b8'),
@@ -2665,4 +2665,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-07-11 13:34:30
+-- Dump completed on 2014-07-11 14:33:44
