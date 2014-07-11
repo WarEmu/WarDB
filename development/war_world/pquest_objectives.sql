@@ -804,9 +804,9 @@ INSERT INTO `pquest_objectives` VALUES (1,1,'ASSAULT',0,'Battle Objective Intera
 (803,186,'Stage II',3,'Ancient Stone',8,'The ritual of evil must be stopped! Overturn those stones to try and disrupt it!  ','503',0,'77203011-7fef-11e1-8887-7a79051cf7b8'),
 (804,186,'Stage III',2,'Sinikar',1,'Destroy Sinikar before he brings ruin to Nordland!  ','4134',9062,'772030bd-7fef-11e1-8887-7a79051cf7b8'),
 (805,187,'Stage I',2,'Suderholm Guard',80,'The villagers of Suderholm refuse to bend their knees to the Raven Host. Slay them!    ','1632',0,'7720316e-7fef-11e1-8887-7a79051cf7b8'),
-(806,187,'Stage II',3,'Kindling',11,'Burn their hovels to the ground!  They\'ll have no choice but to fight or die.  ','18',0,'77203614-7fef-11e1-8887-7a79051cf7b8'),
+(806,187,'Stage II',3,'Kindling',11,'Burn their hovels to the ground!  They\'ll have no choice but to fight or die.  ','57',0,'77203614-7fef-11e1-8887-7a79051cf7b8'),
 (807,187,'Stage III',2,'Aborrah',1,'Aborrah thinks he\'s a match for the might of Tchar\'zanek\'s army? Show him the might of the Raven Host!  ','9373',8270,'772036d8-7fef-11e1-8887-7a79051cf7b8'),
-(808,188,'Stage I',3,'Holmsteinn Supplies',20,'Receive now the rewards of slaughter! Take it all!  ','978',0,'7720378f-7fef-11e1-8887-7a79051cf7b8'),
+(808,188,'Stage I',3,'Holmsteinn Supplies',20,'Receive now the rewards of slaughter! Take it all!  ','551',0,'7720378f-7fef-11e1-8887-7a79051cf7b8'),
 (809,188,'Stage II',2,'Nordland Verkenner',5,'Defeat those who would cheat the Raven Host of the spoils of war!  ','2199',0,'77203c77-7fef-11e1-8887-7a79051cf7b8'),
 (810,188,'Stage III',2,'Boswald Griev',1,'The scout leader at last shows his face! Take his head and claim his soul for the Raven God!  ','4212',8266,'77203d34-7fef-11e1-8887-7a79051cf7b8'),
 (811,189,'Stage I',2,'Cruel Overseer',10,'The militia has been overcome by a band of Murderous Raiders! They must be slain!  ','27047',0,'77203de6-7fef-11e1-8887-7a79051cf7b8'),
@@ -2665,4 +2665,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-07-11 14:33:44
+-- Dump completed on 2014-07-11 17:20:27
