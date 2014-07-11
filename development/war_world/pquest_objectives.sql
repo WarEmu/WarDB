@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.5.37, for Win32 (AMD64)
 --
--- Host: 127.0.0.1    Database: dyoxfin
+-- Host: 127.0.0.1    Database: war_world
 -- ------------------------------------------------------
 -- Server version	5.6.16
 
@@ -757,13 +757,13 @@ INSERT INTO `pquest_objectives` VALUES (1,1,'ASSAULT',0,'Battle Objective Intera
 (753,162,'SECURED',0,'Battle Objective Interactable',1,'Defend Rottenpike Ravine! Keep the Battlefield Objective from falling into enemy hands.  Your enemy can claim Rottenpike Ravine if all the guards are defeated.  ','0',0,'771ffe09-7fef-11e1-8887-7a79051cf7b8'),
 (754,162,'SECURED',0,'Guards Remaining',5,'Defend Rottenpike Ravine! Keep the Battlefield Objective from falling into enemy hands.  Your enemy can claim Rottenpike Ravine if all the guards are defeated.  ','0',0,'771ffecd-7fef-11e1-8887-7a79051cf7b8'),
 (755,165,'Stage I',2,'Raven Host Marauder',25,'Kill the Raven Host Marauders terrorizing the peasants and pillaging the farmland.  ','43',0,'771fff96-7fef-11e1-8887-7a79051cf7b8'),
-(756,165,'Stage II',0,'Father Sigwald Slain',1,'Father Sigwald is the backbone of Grimmenhagen.  Assist the brave peasants in protecting him.  ','0',9041,'77200059-7fef-11e1-8887-7a79051cf7b8'),
+(756,165,'Stage II',6,'Father Sigwald Slain',60000,'Father Sigwald is the backbone of Grimmenhagen.  Assist the brave peasants in protecting him.  ','46',9041,'77200059-7fef-11e1-8887-7a79051cf7b8'),
 (757,165,'Stage III',2,'Argog the Unstoppable',1,'The Raven Host withdrew only to bring a Chaos Giant to bear against the Order of the Griffon.  Kill Argog the Unstoppable!  ','41',9042,'77200117-7fef-11e1-8887-7a79051cf7b8'),
 (758,167,'Stage I',2,'Norse Sea Dog',40,'The Norse invaders must be stopped here! Slay the Sea Dogs, destroy their supplies and burn their tents. Leave them nothing with which to gain a foothold on Empire soil!  ','3546',0,'772001da-7fef-11e1-8887-7a79051cf7b8'),
-(759,167,'Stage I',3,'Defender Corpse',14,'The Norse invaders must be stopped here! Slay the Sea Dogs, destroy their supplies and burn their tents. Leave them nothing with which to gain a foothold on Empire soil!  ','423',0,'77200298-7fef-11e1-8887-7a79051cf7b8'),
+(759,167,'Stage I',3,'Defender Corpse',14,'The Norse invaders must be stopped here! Slay the Sea Dogs, destroy their supplies and burn their tents. Leave them nothing with which to gain a foothold on Empire soil!  ','10',0,'77200298-7fef-11e1-8887-7a79051cf7b8'),
 (761,167,'Stage II',0,'Stolen Karl',4,'Gather torches from the campfires atop the hill and use them on the Norse Boats to set them aflame. Destroy any Norsemen who try to stand in your way.  ','11001',0,'77200355-7fef-11e1-8887-7a79051cf7b8'),
 (762,167,'Stage II',2,'Norse Plunderer',8,'Gather torches from the campfires atop the hill and use them on the Norse Boats to set them aflame. Destroy any Norsemen who try to stand in your way.  ','3551',0,'77200413-7fef-11e1-8887-7a79051cf7b8'),
-(763,167,'Stage III',3,'Slain Defender',8,'The Norsemen seem intent on destroying the ones responsible for burning their boats. Protect the Sea Watch and keep the invaders from advancing into Nordland!  ','425',0,'772004d0-7fef-11e1-8887-7a79051cf7b8'),
+(763,167,'Stage III',3,'Slain Defender',8,'The Norsemen seem intent on destroying the ones responsible for burning their boats. Protect the Sea Watch and keep the invaders from advancing into Nordland!  ','17',0,'772004d0-7fef-11e1-8887-7a79051cf7b8'),
 (764,167,'Stage IV',2,'Hralgar the Kraken',1,'Hralgar the Kraken and his personal guard storm the beach to save what is left of the invasion.  Slay him and crush the Norse invasion.  ','3548',9055,'77200594-7fef-11e1-8887-7a79051cf7b8'),
 (765,176,'Stage I',2,'Norse Ravager',15,'Kill the Norse Ravagers and liberate Schloss von Rubendorff!  ','3981',0,'77200651-7fef-11e1-8887-7a79051cf7b8'),
 (767,176,'Stage II',3,'Skulltaker Banner',1,'Tear down the Raven Host banners and reclaim Schloss von Rubendorff for the Empire!  ','488',0,'7720070f-7fef-11e1-8887-7a79051cf7b8'),
@@ -2665,4 +2665,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-04-27 12:14:34
+-- Dump completed on 2014-07-11 13:34:30
