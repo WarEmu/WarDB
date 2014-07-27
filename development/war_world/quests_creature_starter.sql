@@ -2,7 +2,7 @@
 --
 -- Host: 127.0.0.1    Database: war_world
 -- ------------------------------------------------------
--- Server version	5.6.16
+-- Server version	5.6.15-log
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -2920,7 +2920,7 @@ INSERT INTO `quests_creature_starter` VALUES (600,1312,'f5cf813b-5f10-11e0-b8ed-
 (42313,2526,'f5def541-5f10-11e0-b8ed-80d5a8cb02a5'),
 (42314,4829,'f5def5f1-5f10-11e0-b8ed-80d5a8cb02a5'),
 (42315,2492,'f5def6a6-5f10-11e0-b8ed-80d5a8cb02a5'),
-(42316,2520,'f5def760-5f10-11e0-b8ed-80d5a8cb02a5'),
+(42316,2520,'67bf15ee-1569-11e4-b8e7-94de807e9be8'),
 (42317,2085,'f5def811-5f10-11e0-b8ed-80d5a8cb02a5'),
 (42318,2205,'f5def8c6-5f10-11e0-b8ed-80d5a8cb02a5'),
 (42320,2085,'f5def97b-5f10-11e0-b8ed-80d5a8cb02a5'),
@@ -3655,7 +3655,7 @@ INSERT INTO `quests_creature_starter` VALUES (600,1312,'f5cf813b-5f10-11e0-b8ed-
 (48516,8208,'f5e32c13-5f10-11e0-b8ed-80d5a8cb02a5'),
 (48531,6983,'f5e32d4c-5f10-11e0-b8ed-80d5a8cb02a5'),
 (48532,7535,'f5e32e49-5f10-11e0-b8ed-80d5a8cb02a5'),
-(48533,7534,'f5e32f08-5f10-11e0-b8ed-80d5a8cb02a5'),
+(48533,7535,'787fb7ea-0f53-11e4-ba68-94de807e9be8'),
 (48534,34629,'f5e32fc1-5f10-11e0-b8ed-80d5a8cb02a5'),
 (48535,448,'f5e3307b-5f10-11e0-b8ed-80d5a8cb02a5'),
 (48536,448,'f5e33139-5f10-11e0-b8ed-80d5a8cb02a5'),
@@ -3681,6 +3681,7 @@ INSERT INTO `quests_creature_starter` VALUES (600,1312,'f5cf813b-5f10-11e0-b8ed-
 (48604,27463,'f5e33fcd-5f10-11e0-b8ed-80d5a8cb02a5'),
 (48606,959,'f5e34087-5f10-11e0-b8ed-80d5a8cb02a5'),
 (48607,27460,'f5e34145-5f10-11e0-b8ed-80d5a8cb02a5'),
+(48608,87129,'22e026e0-0f9e-11e4-ba68-94de807e9be8'),
 (48609,27461,'f5e349cc-5f10-11e0-b8ed-80d5a8cb02a5'),
 (48610,437,'f5e34a98-5f10-11e0-b8ed-80d5a8cb02a5'),
 (48611,6983,'f5e34b51-5f10-11e0-b8ed-80d5a8cb02a5'),
@@ -4432,4 +4433,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-06-16 10:43:41
+-- Dump completed on 2014-07-27 11:03:21

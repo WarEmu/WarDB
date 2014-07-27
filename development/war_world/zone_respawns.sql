@@ -2,7 +2,7 @@
 --
 -- Host: 127.0.0.1    Database: war_world
 -- ------------------------------------------------------
--- Server version	5.6.16
+-- Server version	5.6.15-log
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -32,7 +32,7 @@ CREATE TABLE `zone_respawns` (
   `PinZ` smallint(5) unsigned NOT NULL,
   `WorldO` smallint(5) unsigned NOT NULL,
   PRIMARY KEY (`RespawnID`)
-) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -51,7 +51,9 @@ INSERT INTO `zone_respawns` VALUES ('591904e9-c935-4965-b182-e9879574a107',1,106
 ('41a950b8-f539-11e3-a79e-406c8f12b734',8,106,1,28098,18493,5087,2864),
 ('41b22e9f-f539-11e3-a79e-406c8f12b734',9,100,1,55013,58312,5924,2332),
 ('cf4a0e21-f53b-11e3-a79e-406c8f12b734',10,130,1,36373,32497,3572,872),
-('cd9b4abd-f53b-11e3-a79e-406c8f12b734',11,130,2,35580,24097,3272,618);
+('cd9b4abd-f53b-11e3-a79e-406c8f12b734',11,130,2,35580,24097,3272,618),
+('62936412-0f53-11e4-ba68-94de807e9be8',12,30,2,30692,35411,8881,1980),
+('6295f041-0f53-11e4-ba68-94de807e9be8',13,30,1,31607,25665,9157,426);
 /*!40000 ALTER TABLE `zone_respawns` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -64,4 +66,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-06-16 10:52:19
+-- Dump completed on 2014-07-27 11:03:21

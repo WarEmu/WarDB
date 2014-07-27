@@ -2,7 +2,7 @@
 --
 -- Host: 127.0.0.1    Database: war_world
 -- ------------------------------------------------------
--- Server version	5.6.16
+-- Server version	5.6.15-log
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -40,6 +40,7 @@ LOCK TABLES `gameobject_loots` WRITE;
 INSERT INTO `gameobject_loots` VALUES (12,434979,100,'f356ba48-f538-11e3-a79e-406c8f12b734'),
 (20,17537,100,'231d38ed-f53a-11e3-a79e-406c8f12b734'),
 (25,12982154,100,'874116b0-f539-11e3-a79e-406c8f12b734'),
+(218,66302,100,'22f36946-0f9e-11e4-ba68-94de807e9be8'),
 (488,12982153,100,'af633e5b-f538-11e3-a79e-406c8f12b734'),
 (508,12982155,100,'c48c46a1-f539-11e3-a79e-406c8f12b734'),
 (512,17540,100,'e6e6f114-eb50-11e3-904f-90e6baf693b4'),
@@ -64,4 +65,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-06-16 10:43:40
+-- Dump completed on 2014-07-27 11:03:20

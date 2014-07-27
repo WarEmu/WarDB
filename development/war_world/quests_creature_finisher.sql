@@ -2,7 +2,7 @@
 --
 -- Host: 127.0.0.1    Database: war_world
 -- ------------------------------------------------------
--- Server version	5.6.16
+-- Server version	5.6.15-log
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -1844,11 +1844,11 @@ INSERT INTO `quests_creature_finisher` VALUES (600,1312,'ef8f2e8c-5f10-11e0-b8ed
 (34015,187,'ef99429f-5f10-11e0-b8ed-80d5a8cb02a5'),
 (34018,191,'ef9943ca-5f10-11e0-b8ed-80d5a8cb02a5'),
 (34019,195,'ef9945aa-5f10-11e0-b8ed-80d5a8cb02a5'),
-(34020,8517,'ef9946e3-5f10-11e0-b8ed-80d5a8cb02a5'),
+(34020,2390,'b15bfff8-1569-11e4-b8e7-94de807e9be8'),
 (34021,191,'ef99480e-5f10-11e0-b8ed-80d5a8cb02a5'),
 (34024,2331,'ef994934-5f10-11e0-b8ed-80d5a8cb02a5'),
 (34025,1560,'ef994a56-5f10-11e0-b8ed-80d5a8cb02a5'),
-(34027,1400,'ef994b0f-5f10-11e0-b8ed-80d5a8cb02a5'),
+(34027,1400,'b1e17167-1569-11e4-b8e7-94de807e9be8'),
 (34045,2334,'ef994bc5-5f10-11e0-b8ed-80d5a8cb02a5'),
 (34046,1562,'ef994c75-5f10-11e0-b8ed-80d5a8cb02a5'),
 (34100,2376,'ef994d26-5f10-11e0-b8ed-80d5a8cb02a5'),
@@ -4157,4 +4157,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-06-16 10:52:18
+-- Dump completed on 2014-07-27 11:03:21
