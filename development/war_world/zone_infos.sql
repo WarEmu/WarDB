@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.5.37, for Win32 (AMD64)
 --
--- Host: 127.0.0.1    Database: ww
+-- Host: 127.0.0.1    Database: war_world
 -- ------------------------------------------------------
 -- Server version	5.6.16
 
@@ -57,7 +57,7 @@ INSERT INTO `zone_infos` VALUES (1,'Marshes of Madness',11,20,0,2,500,12,252,210
 (11,'Mount Bloodhorn',1,10,0,1,50,1,196,206,'9413414c-bac4-11e0-84b4-60eb69729418'),
 (26,'Cinderfall',31,40,0,4,0,2,0,0,'94134221-bac4-11e0-84b4-60eb69729418'),
 (27,'Death Peak',31,40,0,4,0,2,0,0,'941342b5-bac4-11e0-84b4-60eb69729418'),
-(30,'Gates of Ekrund',1,10,0,1,0,30,7,7,'9413433e-bac4-11e0-84b4-60eb69729418'),
+(30,'Gates of Ekrund',1,10,1,1,0,30,7,7,'9413433e-bac4-11e0-84b4-60eb69729418'),
 (31,'Mourkain Temple',11,20,0,2,0,31,9,7,'941343fb-bac4-11e0-84b4-60eb69729418'),
 (33,'Doomfist Crater',21,30,0,3,0,33,7,8,'9413470f-bac4-11e0-84b4-60eb69729418'),
 (34,'Thunder Valley',31,40,0,4,0,34,8,135,'941347ea-bac4-11e0-84b4-60eb69729418'),
@@ -147,4 +147,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-06-26 21:03:34
+-- Dump completed on 2014-07-29  0:13:40
